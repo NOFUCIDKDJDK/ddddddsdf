@@ -6,16 +6,7 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.on('message', msg => {
-    // check if message isn't from us
-    if (msg.author == client.user) {
-  
-    }
-    else if (msg.content === 'ping pene') {
-      msg.reply('tu madre!');
-    }
-    else {
-        msg.reply(msg.content);
+
     }
 });
 
